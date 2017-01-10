@@ -10,7 +10,7 @@ octava_geggs:
         status:
             - Octava\GeggsBundle\Plugin\StatusPlugin
         checkout:
-            - Octava\GeggsBundle\Plugin\PullPlugin
+            - Octava\GeggsBundle\Plugin\PullProjectPlugin
             - Octava\GeggsBundle\Plugin\CheckoutPlugin
         commit:
             - Octava\GeggsBundle\Plugin\BranchPlugin
@@ -18,7 +18,7 @@ octava_geggs:
             - Octava\GeggsBundle\Plugin\ComposerPlugin
             - Octava\GeggsBundle\Plugin\CommitProjectPlugin
         pull:
-            - Octava\GeggsBundle\Plugin\PullPlugin
+            - Octava\GeggsBundle\Plugin\PullProjectPlugin
         push:
             - Octava\GeggsBundle\Plugin\PushPlugin
         composer:
