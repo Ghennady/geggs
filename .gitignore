@@ -6,3 +6,4 @@
 /phpunit.xml
 /var/*
 /vendor/
+/.idea/
